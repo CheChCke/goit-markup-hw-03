@@ -59,6 +59,18 @@ img{
     list-style: none;
 }
 
+.menu-list{
+    display: flex;
+}
+
+.menu-item1{
+    margin-right: 40px;
+}
+
+.menu-item2{
+    margin-right: 40px;
+}
+
 .list .menu{
     font-style: normal;
     font-weight: 500;
