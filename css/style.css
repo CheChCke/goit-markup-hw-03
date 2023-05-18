@@ -116,6 +116,8 @@ a {
 
 .main-hero{
     background-color: var(--color-hero-bg);
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title{
@@ -126,7 +128,8 @@ a {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #ffffff
+    color: #ffffff;
+    max-width: 496px;
 }
 
 .button-hero-main{
@@ -139,6 +142,14 @@ a {
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:var(--color-main-logo);
+    border-radius: 4px;
+    cursor: pointer;
+    margin: auto;
 }
 
 .button-hero-main:hover, :focus{
