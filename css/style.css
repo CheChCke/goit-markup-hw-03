@@ -192,6 +192,7 @@ a {
 .our-team{
     background-color: #f4f4fd;
 }
+
 .our-team-title{
     font-size: 36px;
     line-height: 1.11;
@@ -200,6 +201,7 @@ a {
     text-transform: capitalize;
     color: var(--color-menu-text)
 }
+
 .worker{
     background-color: #ffffff;
 }
@@ -209,15 +211,26 @@ a {
 /* FOOTER_START */
 .footer{
     background-color: var(--color-hero-bg);
-    color: var(--bg-btn-color)
-
+    color: var(--bg-btn-color);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-info{
+    max-width: 264px;
+}
+
 .footer-logo-text {
     color: #f4f4fd;
 }
 
 /* PORTFOIO_PAGE_START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-/* FITER_NAVIGATION_START */
+/* FTER_NAVIGATION_START */
 .btn-filtr{
     font-family: "Roboto", sans-serif;
     font-style: normal;
