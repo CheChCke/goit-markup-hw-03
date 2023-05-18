@@ -92,8 +92,6 @@ img{
 
 .information-item{
     margin-right: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .information-item:last-child {
@@ -108,7 +106,9 @@ a {
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
-        color: var(--main-small-text)
+        color: var(--main-small-text);
+        padding-top: 24px;
+        padding-bottom: 24px;
 }
 /* NAV_MENU_END */
 /* HEADER_END */
