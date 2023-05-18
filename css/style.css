@@ -63,12 +63,12 @@ img{
     display: flex;
 }
 
-.menu-item1{
+.menu-item{
     margin-right: 40px;
 }
 
-.menu-item2{
-    margin-right: 40px;
+.menu-item:last-child{
+    margin-right: 0px;
 }
 
 .list .menu{
