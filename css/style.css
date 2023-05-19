@@ -180,6 +180,21 @@ a {
     letter-spacing: 0.02em;
     color: var(--main-small-text)
 }
+
+.about-us-description{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about-us-list{
+    gap: 24px;
+}
+
+.about-us-description-1{
+    width: calc((100% - 72px) / 4);
+    
+}
+
 /* Section2_END */
 /* Section3_START */
 .about-us-title{
