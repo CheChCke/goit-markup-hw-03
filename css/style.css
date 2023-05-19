@@ -214,12 +214,23 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--color-menu-text)
+    color: var(--color-menu-text);
+    margin-bottom: 72px;
+}
+
+.list-img{
+    gap: 24px;
+}
+
+.img-work{
+    width: calc((100% - 48px) / 3);
 }
 /* Section3_END */
 /* Section4_START */
 .our-team{
     background-color: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .our-team-title{
@@ -228,11 +239,19 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--color-menu-text)
+    color: var(--color-menu-text);
+    margin-bottom: 72px;
+}
+
+.list-worker{
+    display: flex;
+    gap: 24px;
 }
 
 .worker{
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
 }
     /* h3-title-description-frm-section2 */
     /* p-text-descroption-from-section2 */
