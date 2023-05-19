@@ -133,6 +133,7 @@ a {
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
+    margin: auto;
 }
 
 .button-hero-main{
@@ -153,6 +154,7 @@ a {
     border-radius: 4px;
     cursor: pointer;
     margin: auto;
+    margin-top: 48px;
 }
 
 .button-hero-main:hover, :focus{
@@ -187,12 +189,17 @@ a {
 }
 
 .about-us-list{
+    display: flex;
     gap: 24px;
 }
 
-.about-us-description-1{
+.about-us-description{
     width: calc((100% - 72px) / 4);
-    
+
+}
+
+.title-description{
+    margin-bottom: 8px;
 }
 
 /* Section2_END */
