@@ -194,8 +194,7 @@ a {
 }
 
 .about-us-description{
-    width: calc((100% - 72px) / 4);
-
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .title-description{
@@ -204,6 +203,11 @@ a {
 
 /* Section2_END */
 /* Section3_START */
+
+.about-us-text-img{
+    padding-bottom: 120px;
+}
+
 .about-us-title{
     font-size: 36px;
     line-height: 1.11;
