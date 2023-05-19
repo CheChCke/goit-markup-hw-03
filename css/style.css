@@ -222,6 +222,7 @@ a {
 
 .list-img{
     gap: 24px;
+    padding: 0;
 }
 
 .img-work{
@@ -248,6 +249,7 @@ a {
 .list-worker{
     display: flex;
     gap: 24px;
+    padding: 0;
 }
 
 .worker{
