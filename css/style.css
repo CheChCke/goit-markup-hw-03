@@ -17,6 +17,11 @@ body{
 img{
     display: block;
 }
+
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+}
 /* HEADER */
 /* NAV_MENU */
 
@@ -61,6 +66,8 @@ img{
 
 .list{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .menu-list{
@@ -106,7 +113,7 @@ img{
 a {
     font-family: 'Roboto';
         font-style: normal;
-        font-weight: 400;   
+        font-weight: 500;   
         font-size: 16px;
         line-height: 24px;
         letter-spacing: 0.02em;
@@ -284,10 +291,12 @@ a {
 .logo-footer{
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
 }
 
 .footer-info{
     max-width: 264px;
+    line-height: 1.5;
 }
 
 .footer-logo-text {
